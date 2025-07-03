@@ -33,7 +33,7 @@ const Contact = () => {
           className="w-full md:w-2/5 space-y-5 pt-20"
         >
           <div className="flex flex-col">
-            <label htmlFor="userName">Your Name</label>
+            <label htmlFor="userName">Your Nameeeeeeeeeeeeeeee</label>
             <input
               className="py-3 px-2 rounded-lg hover:shadow-primaryShadow transition-all"
               type="text"
