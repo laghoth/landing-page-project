@@ -4,7 +4,7 @@ import webImg from "../../../assets/web-dev.svg";
 import appImg from "../../../assets/App-dev.svg";
 import graphicImg from "../../../assets/graphic.svg";
 import digitalImg from "../../../assets/digital.svg";
-import CoursesCard from "../../../layout/CoursesCard";
+import CoursesCard from "../layout/CoursesCard";
 import Button from "../../../layout/Button";
 
 const Courses = () => {
@@ -38,7 +38,6 @@ const Courses = () => {
   return (
     <div className="min-h-[100vh] flex flex-col items-center md:px-32 px-5 my-10">
       <Heading title1="Our" title2="Courses" />
-
       <div className="flex flex-wrap justify-center gap-4 mt-6">
         {coursesData.map((course, index) => (
           <CoursesCard
