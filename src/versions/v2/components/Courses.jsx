@@ -4,7 +4,7 @@ import webImg from "../../../assets/web-dev.svg";
 import appImg from "../../../assets/App-dev.svg";
 import graphicImg from "../../../assets/graphic.svg";
 import digitalImg from "../../../assets/digital.svg";
-import CoursesCard from "../../../layout/coursesCard";
+import CoursesCard from "../../../layout/CoursesCard";
 import Button from "../../../layout/Button";
 
 const Courses = () => {
