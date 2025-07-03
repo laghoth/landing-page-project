@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #fdf8ee;
+  color: #000000;
+  font-family: "Inter", sans-serif;
+}
+
+
+/* Global CSS or in your component's CSS module */
+.swiper-pagination-bullet {
+  background-color: #ffa500 !important; /* brightOrange for inactive bullets */
+  opacity: 0.4;
+  transition: 0.3s;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ecb958 !important; /* darker orange for active bullet */
+  opacity: 1;
+}
