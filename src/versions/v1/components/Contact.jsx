@@ -25,7 +25,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center md:mx-32 mx-5 py-10">
+    <div className="min-h-screen flex flex-col items-center justify-center md:mx-32 mx-5 py-10 bg-white">
       <Heading title1="Contact" title2="Us" />
       <div className="flex flex-col md:flex-row justify-between w-full">
         <form
@@ -33,7 +33,7 @@ const Contact = () => {
           className="w-full md:w-2/5 space-y-5 pt-20"
         >
           <div className="flex flex-col">
-            <label htmlFor="userName">Your Nameeeeeeeeeeeeeeee</label>
+            <label htmlFor="userName">Your Name</label>
             <input
               className="py-3 px-2 rounded-lg hover:shadow-primaryShadow transition-all"
               type="text"

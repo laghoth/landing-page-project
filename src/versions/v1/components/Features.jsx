@@ -60,12 +60,14 @@ const Features = () => {
       role="region"
       aria-labelledby="features-heading"
     >
-      <div className="text-center mb-12">
-        <Heading title1="Product" title2="Features" color="text-brightOrange" />
-        <p className="mt-4 max-w-xl mx-auto text-lightText">
-          Discover what makes our smartwatch a game changer in the world of
-          wearable tech.
-        </p>
+      <div className="flex flex-col items-center text-center mb-12">
+        <Heading
+          title1="Product"
+          title2="Features"
+          color="text-brightOrange"
+          paragraph="Discover what makes our smartwatch a game changer in the world of
+          wearable tech."
+        />
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">

@@ -7,6 +7,11 @@ const Heading = (props) => {
         {props.title1}
         <span className={`${props.color}`}> {props.title2}</span>
       </h3>
+      {props.paragraph && (
+        <p className="text-lightText mt-2 max-w-xl text-center">
+          {props.paragraph}
+        </p>
+      )}
     </div>
   );
 };

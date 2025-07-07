@@ -6,6 +6,7 @@ import About from "./components/About";
 import Reviews from "./components/Reviews";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import FaqSection from "./components/FaqSection";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -38,6 +39,10 @@ const App = () => {
 
         <div id="reviews">
           <Reviews />
+        </div>
+
+        <div id="FaqSection">
+          <FaqSection />
         </div>
 
         <div id="contact">

@@ -12,6 +12,7 @@ export const listLinks = [
   { name: "Courses", to: "courses" },
   { name: "Reviews", to: "reviews" },
   { name: "Contact", to: "contact" },
+  { name: "Faqs", to: "FaqSection" },
 ];
 
 export const listLinksFooter = [

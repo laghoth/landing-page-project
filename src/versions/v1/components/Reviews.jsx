@@ -67,16 +67,13 @@ const Reviews = () => {
       className=" w-full py-24 bg-white px-5 md:px-32"
       aria-labelledby="testimonials-heading"
     >
-      <div className="text-center mb-10 ">
+      <div className="flex flex-col items-center text-center mb-10 ">
         <Heading
           title1="What Our"
           title2="Customers Say"
           color="text-brightOrange"
+          paragraph="Hear from people who love our product."
         />
-
-        <p className="text-lightText mt-2 max-w-xl mx-auto">
-          Hear from people who love our product.
-        </p>
       </div>
 
       <Swiper
@@ -89,10 +86,14 @@ const Reviews = () => {
           1024: { slidesPerView: 3 },
         }}
         className="pb-10"
+        data-aos="fade-up"
       >
         {testimonials.map((item, index) => (
           <SwiperSlide key={index}>
-            <div className="h-[230px] bg-brightOrangeTwo border border-brightOrange rounded-xl p-6 shadow-md  flex flex-col justify-between">
+            <div
+              data-aos="fade-up"
+              className="h-[230px] bg-brightOrangeTwo border border-brightOrange rounded-xl p-6 shadow-md  flex flex-col justify-between"
+            >
               <div className="flex flex-col items-center">
                 <img
                   src={images[index]}
