@@ -2,7 +2,11 @@
 import React, { useState } from "react";
 import Heading from "../../../layout/Heading";
 import faqImg from "../../../assets/fitness-woman.png";
+<<<<<<< HEAD
 import { AnimatePresence } from "framer-motion";
+=======
+import { motion, AnimatePresence } from "framer-motion";
+>>>>>>> 93fdbc925220cf46fcbd7f66634e4b40a41c2b0b
 
 const faqs = [
   {

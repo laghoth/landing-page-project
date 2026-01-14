@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import React, { useState } from "react";
 // import Heading from "../../../layout/Heading.jsx";
 // import Button from "../../../layout/Button.jsx";
@@ -93,6 +94,12 @@ import React, { useState } from "react";
 import Heading from "../../../layout/Heading.jsx";
 import Button from "../../../layout/Button.jsx";
 import img from "../../../assets/images/pic-contact-v1.png";
+=======
+import React, { useState } from "react";
+import Heading from "../../../layout/Heading.jsx";
+import Button from "../../../layout/Button.jsx";
+import img from "../../../assets/contact.svg";
+>>>>>>> 93fdbc925220cf46fcbd7f66634e4b40a41c2b0b
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -106,6 +113,11 @@ const Contact = () => {
       ...prev,
       [e.target.name]: e.target.value,
     }));
+<<<<<<< HEAD
+=======
+
+    console.log("Form Data Updated: ", formData);
+>>>>>>> 93fdbc925220cf46fcbd7f66634e4b40a41c2b0b
   };
 
   const handleSubmit = (e) => {
@@ -114,6 +126,7 @@ const Contact = () => {
   };
 
   return (
+<<<<<<< HEAD
     <div
       id="contact"
       className="
@@ -147,6 +160,22 @@ const Contact = () => {
               "
               type="text"
               name="userName"
+=======
+    <div className="min-h-screen flex flex-col items-center justify-center md:mx-32 mx-5 py-10 bg-white">
+      <Heading title1="Contact" title2="Us" />
+      <div className="flex flex-col md:flex-row justify-between w-full">
+        <form
+          onSubmit={handleSubmit}
+          className="w-full md:w-2/5 space-y-5 pt-20"
+        >
+          <div className="flex flex-col">
+            <label htmlFor="userName">Your Name</label>
+            <input
+              className="py-3 px-2 rounded-lg hover:shadow-primaryShadow transition-all"
+              type="text"
+              name="userName"
+              id="userName"
+>>>>>>> 93fdbc925220cf46fcbd7f66634e4b40a41c2b0b
               placeholder="Enter your name"
               value={formData.userName}
               onChange={handleChange}
@@ -155,6 +184,7 @@ const Contact = () => {
           </div>
 
           <div className="flex flex-col">
+<<<<<<< HEAD
             <label className="text-gray-700 mb-1">Your Email</label>
             <input
               className="
@@ -164,6 +194,14 @@ const Contact = () => {
               "
               type="email"
               name="userEmail"
+=======
+            <label htmlFor="userEmail">Your Email</label>
+            <input
+              className="py-3 px-2 rounded-lg hover:shadow-primaryShadow transition-all"
+              type="email"
+              name="userEmail"
+              id="userEmail"
+>>>>>>> 93fdbc925220cf46fcbd7f66634e4b40a41c2b0b
               placeholder="Enter your email"
               value={formData.userEmail}
               onChange={handleChange}
@@ -172,6 +210,7 @@ const Contact = () => {
           </div>
 
           <div className="flex flex-col">
+<<<<<<< HEAD
             <label className="text-gray-700 mb-1">Your Number</label>
             <input
               className="
@@ -181,6 +220,14 @@ const Contact = () => {
               "
               type="tel"
               name="userNumber"
+=======
+            <label htmlFor="userNumber">Your Number</label>
+            <input
+              className="py-3 px-2 rounded-lg hover:shadow-primaryShadow transition-all"
+              type="tel"
+              name="userNumber"
+              id="userNumber"
+>>>>>>> 93fdbc925220cf46fcbd7f66634e4b40a41c2b0b
               placeholder="Enter your number"
               value={formData.userNumber}
               onChange={handleChange}
@@ -188,6 +235,7 @@ const Contact = () => {
             />
           </div>
 
+<<<<<<< HEAD
           <div className="flex justify-center pt-4">
             <Button
               title="Send Message"
@@ -201,6 +249,13 @@ const Contact = () => {
         </form>
 
         {/* IMAGE */}
+=======
+          <div className="flex flex-row justify-center">
+            <Button title="Send Message" />
+          </div>
+        </form>
+
+>>>>>>> 93fdbc925220cf46fcbd7f66634e4b40a41c2b0b
         <div className="w-full md:w-2/5 pt-10 md:pt-0">
           <img src={img} alt="contact illustration" />
         </div>
