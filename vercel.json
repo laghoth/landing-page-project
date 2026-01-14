@@ -4,11 +4,5 @@
     { "source": "/v2", "destination": "/" },
     { "source": "/v1/(.*)", "destination": "/" },
     { "source": "/v2/(.*)", "destination": "/" }
-<<<<<<< HEAD
-  ],
-  "public": true
-}
-=======
   ]
 }
->>>>>>> 93fdbc925220cf46fcbd7f66634e4b40a41c2b0b
