@@ -17,7 +17,7 @@ const Footer = () => {
           href="https://facebook.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white hover:text-gray-300 transition-colors bg-white rounded-full p-3"
+          className="text-white hover:bg-orange-100 transition-colors bg-white rounded-full p-3"
           aria-label="Facebook"
           title="Facebook"
         >
@@ -27,7 +27,7 @@ const Footer = () => {
           href="https://instagram.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white hover:text-gray-300 transition-colors bg-white rounded-full p-3"
+          className="text-white hover:bg-orange-100 transition-colors bg-white rounded-full p-3"
           aria-label="Instagram"
           title="Instagram"
         >
@@ -37,7 +37,7 @@ const Footer = () => {
           href="https://twitter.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white hover:text-gray-300 transition-colors bg-white rounded-full p-3"
+          className="text-white hover:bg-orange-100 transition-colors bg-white rounded-full p-3"
           aria-label="Twitter"
           title="Twitter"
         >
@@ -47,7 +47,7 @@ const Footer = () => {
           href="https://linkedin.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white hover:text-gray-300 transition-colors bg-white rounded-full p-3"
+          className="text-white hover:bg-orange-100 transition-colors bg-white rounded-full p-3"
           aria-label="LinkedIn"
           title="LinkedIn"
         >
@@ -66,7 +66,7 @@ const Footer = () => {
               smooth={true}
               duration={500}
               activeClass="active"
-              className="hover:underline hover:text-gray-300 transition-all"
+              className="hover:underline hover:text-orange-200 transition-all"
             >
               {Links.name}
             </Link>
