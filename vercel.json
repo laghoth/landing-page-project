@@ -4,5 +4,6 @@
     { "source": "/v2", "destination": "/" },
     { "source": "/v1/(.*)", "destination": "/" },
     { "source": "/v2/(.*)", "destination": "/" }
-  ]
+  ],
+  "public": true
 }
