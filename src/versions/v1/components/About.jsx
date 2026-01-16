@@ -7,20 +7,21 @@ const About = () => {
   return (
     <section
       id="about"
-      className="w-full py-16 px-5 md:px-32"
+      className="w-full py-32 px-5 md:px-32"
       role="region"
       aria-labelledby="about-heading"
     >
-      <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
+      <div className="flex flex-col-reverse lg:flex-row items-start justify-between gap-12">
         {/* Image Section */}
         <div
-          className="w-full lg:w-1/2 flex justify-center"
+          className="w-full lg:w-1/2 flex justify-start"
           data-aos="fade-right"
         >
+          
           <img
             src={img}
             alt="Smartwatch close-up detail"
-            className="w-full max-w-md md:max-w-lg lg:max-w-[500px] max-h-[50vh] object-contain rounded-lg"
+            className="object-contain rounded-lg"
           />
         </div>
 

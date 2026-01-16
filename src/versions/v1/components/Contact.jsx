@@ -25,7 +25,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="min-h-screen flex flex-col items-center justify-center md:px-32 px-5 py-20 bg-white"
+      className="min-h-screen flex flex-col items-center justify-center md:px-32 px-5 py-32 bg-white "
     >
       <Heading
         title1="Contact"
@@ -34,11 +34,11 @@ const Contact = () => {
         paragraph="Quick support. Real answers."
       />
 
-      <div className="flex flex-col lg:flex-row justify-between w-full items-center mt-12 gap-10">
+      <div className="flex flex-col lg:flex-row justify-between w-full items-stretch mt-12 gap-4">
         {/* FORM */}
         <form
           onSubmit={handleSubmit}
-          className="w-full lg:w-2/5 space-y-5 bg-brightBackground p-8 rounded-2xl shadow-lg"
+          className="w-full lg:w-2/4 space-y-5 bg-brightBackground p-8 rounded-2xl shadow-lg"
         >
           <div className="flex flex-col">
             <label className="text-gray-700 mb-1">Your Name</label>
@@ -92,8 +92,8 @@ const Contact = () => {
         </form>
 
         {/* IMAGE */}
-        <div className="w-full lg:w-2/5">
-          <img src={img} alt="contact illustration" />
+        <div className="w-full lg:w-2/5 h-auto">
+          <img src={img} alt="contact illustration" className="w-full object-cover h-full" />
         </div>
       </div>
     </div>

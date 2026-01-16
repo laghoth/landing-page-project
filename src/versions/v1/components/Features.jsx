@@ -56,7 +56,7 @@ const Features = () => {
   return (
     <section
       id="features"
-      className="w-full bg-white py-16 px-5 md:px-32"
+      className="w-full bg-white py-32 px-5 md:px-32"
       role="region"
       aria-labelledby="features-heading"
     >

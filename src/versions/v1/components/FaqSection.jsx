@@ -45,7 +45,10 @@ const FaqSection = () => {
   };
 
   return (
-    <section className="h-[100vh] px-4 py-16 pt-28 bg-brightBackground overflow-hidden">
+    <section
+      id="faqs"
+      className="min-h-[100vh] px-5 md:px-32 py-32 bg-brightBackground overflow-hidden"
+    >
       <div className="flex flex-col items-center">
         <Heading
           title1="Frequently Asked"
@@ -56,9 +59,9 @@ const FaqSection = () => {
       </div>
 
       {/* FAQ Content */}
-      <div className="mt-10 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
+      <div className="grid md:grid-cols-2 lg:grid-cols-2 items-stretch gap-8 mt-10">
         {/* FAQ List */}
-        <div className="space-y-4">
+        <div className="md:col-span-2 lg:col-span-1 flex flex-col justify-between gap-4 lg:h-[500px] lg:overflow-hidden">
           {faqs.map((faq, index) => (
             <div
               key={index}
@@ -92,11 +95,11 @@ const FaqSection = () => {
         </div>
 
         {/* Image */}
-        <div className="flex justify-center">
+        <div className="hidden lg:flex justify-start items-start lg:h-[500px] overflow-hidden">
           <img
             src={faqImg}
             alt="Woman checking smartwatch for fitness tracking"
-            className="hidden md:flex w-[100%]  object-contain h-auto"
+            className="w-full h-full object-cover object-top"
             data-aos="fade-up"
           />
         </div>

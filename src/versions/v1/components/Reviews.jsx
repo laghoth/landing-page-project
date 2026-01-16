@@ -64,7 +64,7 @@ const Reviews = () => {
   return (
     <section
       id="testimonials"
-      className=" w-full py-24 bg-white px-5 md:px-32"
+      className=" w-full py-32 bg-white px-5 md:px-32"
       aria-labelledby="testimonials-heading"
     >
       <div className="flex flex-col items-center text-center mb-10 ">
