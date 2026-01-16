@@ -5,7 +5,7 @@ import img from "../../../assets/contact.svg"; // Assuming you have an image at 
 
 const Contact = () => {
   return (
-    <div className="min-h-[100vh] flex flex-col items-center justify-center md:mx-32 mx-5 mt-10">
+    <div className="min-h-[100vh] flex flex-col items-center justify-center md:px-32 px-5 py-32 ">
       <Heading title1="Contact" title2="Us" />
 
       <div className="flex flex-col md:flex-row justify-between w-full">

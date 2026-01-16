@@ -6,7 +6,7 @@ import Heading from "../../../layout/Heading";
 
 const About = () => {
   return (
-    <div className="min-h-[100vh] flex flex-col-reverse md:flex-row items-center gap-5 md:px-32 px-5 mt-14 bg-white w-full">
+    <div className="min-h-[100vh] flex flex-col-reverse md:flex-row items-center gap-5 md:px-32 px-5 bg-white w-full">
       <div className="w-full md:w-2/4" data-aos="fade-right">
         <img src={img} alt="image" />
       </div>

@@ -25,7 +25,7 @@ const Reviews = () => {
   ];
 
   return (
-    <div className="min-h-[80vh] flex flex-col items-center justify-center md:px-32 px-5 bg-white">
+    <div className="min-h-[80vh] flex flex-col items-center justify-center md:px-32 px-5 py-32 bg-white">
       <Heading title1="What Our" title2="Students Say" />
       <div className="flex flex-col md:flex-row gap-5 mt-5">
         {reviewsData.map((review, index) => (

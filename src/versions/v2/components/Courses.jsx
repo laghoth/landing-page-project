@@ -36,9 +36,9 @@ const Courses = () => {
   ];
 
   return (
-    <div className="min-h-[100vh] flex flex-col items-center md:px-32 px-5 my-10">
+    <div className=" flex flex-col items-center px-5 md:px-32 py-32 gap-10">
       <Heading title1="Our" title2="Courses" />
-      <div className="flex flex-wrap justify-center gap-4 mt-6">
+      <div className="flex flex-wrap justify-center gap-4 ">
         {coursesData.map((course, index) => (
           <CoursesCard
             key={index}
